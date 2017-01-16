@@ -10,8 +10,8 @@ github_username:  helloShen
 detach:  false
 port:    4000
 host:    127.0.0.1
-baseurl: "/thinkinginjava"
-url: "www.ciaoshen.com"
+baseurl: /thinkinginjava
+url: www.ciaoshen.com
 show_dir_listing: false
 
 ### Conversion
