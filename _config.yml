@@ -2,7 +2,8 @@
 # Site settings
 title: ciaoshen Read <Thinking in Java>
 email: symantec__@hotmail.com
-description: > The exercises and notes when I read the <Thinking in Java>.
+description: >
+  The exercises and notes when I read the <Thinking in Java>.
 github_username:  helloShen
 
 ### Serving
