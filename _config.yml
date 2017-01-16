@@ -45,7 +45,6 @@ collections:
   posts:
     output:   true
 
-#theme: minima
 gems:
   - jekyll-feed
 exclude:
