@@ -32,145 +32,173 @@ The padding is very important to make sure the scrollspy picks up the right area
 of those sections to manage the look and feel of the site. */
 
 .chapter1-section {
-    height: 100%;
-    padding-top: 150px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
     text-align: center;
-    background: #fff;
+    background-color: #fff;
 }
 
 .chapter2-section {
-    height: 100%;
-    padding-top: 150px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
     text-align: center;
-    background: #eee;
+    background-color: #eee;
 }
 .chapter3-section {
-    height: 100%;
-    padding-top: 150px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
     text-align: center;
-    background: #fff;
+    background-color: #fff;
 }
 
 .chapter4-section {
-    height: 100%;
-    padding-top: 150px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
     text-align: center;
-    background: #eee;
+    background-color: #eee;
 }
 .chapter5-section {
-    height: 100%;
-    padding-top: 150px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
     text-align: center;
-    background: #fff;
+    background-color: #fff;
 }
 
 .chapter6-section {
-    height: 100%;
-    padding-top: 150px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
     text-align: center;
-    background: #eee;
+    background-color: #eee;
 }
 .chapter7-section {
-    height: 100%;
-    padding-top: 150px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
     text-align: center;
-    background: #fff;
+    background-color: #fff;
 }
 
 .chapter8-section {
-    height: 100%;
-    padding-top: 150px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
     text-align: center;
-    background: #eee;
+    background-color: #eee;
 }
 .chapter9-section {
-    height: 100%;
-    padding-top: 150px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
     text-align: center;
-    background: #fff;
+    background-color: #fff;
 }
 
 .chapter10-section {
-    height: 100%;
-    padding-top: 150px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
     text-align: center;
-    background: #eee;
+    background-color: #eee;
 }
 .chapter11-section {
-    height: 100%;
-    padding-top: 150px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
     text-align: center;
-    background: #fff;
+    background-color: #fff;
 }
 
 .chapter12-section {
-    height: 100%;
-    padding-top: 150px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
     text-align: center;
-    background: #eee;
+    background-color: #eee;
 }
 .chapter13-section {
-    height: 100%;
-    padding-top: 150px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
     text-align: center;
-    background: #fff;
+    background-color: #fff;
 }
 
 .chapter14-section {
-    height: 100%;
-    padding-top: 150px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
     text-align: center;
-    background: #eee;
+    background-color: #eee;
 }
 .chapter15-section {
-    height: 100%;
-    padding-top: 150px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
     text-align: center;
-    background: #fff;
+    background-color: #fff;
 }
 
 .chapter16-section {
-    height: 100%;
-    padding-top: 150px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
     text-align: center;
-    background: #eee;
+    background-color: #eee;
 }
 .chapter17-section {
-    height: 100%;
-    padding-top: 150px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
     text-align: center;
-    background: #fff;
+    background-color: #fff;
 }
 
 .chapter18-section {
-    height: 100%;
-    padding-top: 150px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
     text-align: center;
-    background: #eee;
+    background-color: #eee;
 }
 .chapter19-section {
-    height: 100%;
-    padding-top: 150px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
     text-align: center;
-    background: #fff;
+    background-color: #fff;
 }
 
 .chapter20-section {
-    height: 100%;
-    padding-top: 150px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
     text-align: center;
-    background: #eee;
+    background-color: #eee;
 }
 .chapter21-section {
-    height: 100%;
-    padding-top: 150px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
     text-align: center;
-    background: #fff;
+    background-color: #fff;
 }
 
 .chapter22-section {
-    height: 100%;
-    padding-top: 150px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
     text-align: center;
-    background: #eee;
+    background-color: #eee;
+}
+
+p.exercise-title {
+    text-align: left;
+    padding-bottom: 7px;
+    font-family: courier;
 }
