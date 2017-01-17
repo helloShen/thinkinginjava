@@ -1,5 +1,5 @@
 ---
-deploy: post
+layout: post
 title: 由Object/Class引发的“鸡蛋问题”？
 chapter: "Chapter 14"
 description: >
@@ -31,7 +31,7 @@ class Delivery {}
 ```
 
 
-![delivery1](/jekyll_bootstrap_demo/uploads/oo/delivery1.jpg)
+![delivery1](/thinkinginjava/uploads/oo/delivery1.jpg)
 
 但世界上有无数个“快递”，他们每个的大小尺寸形状都不一样。每个包裹都是“快递”类的一个**“实例对象”**。
 
@@ -48,11 +48,11 @@ Delivery d3 new Delivery();
 ```
 
 
-![delivery2](/jekyll_bootstrap_demo/uploads/oo/delivery2.jpg)
+![delivery2](/thinkinginjava/uploads/oo/delivery2.jpg)
 
 所有类型都有一个共同的基类：Object类。这个Object就好比说是**“东西”**这个概念。快递是一种东西，西瓜是一种东西，所有东西都是一种东西。
 
-![delivery4](/jekyll_bootstrap_demo/uploads/oo/delivery4.png)
+![delivery4](/thinkinginjava/uploads/oo/delivery4.png)
 
 而且每个快递上都有一张“快递单”，用来描述这个快递的信息。这张快递单，在Java里是**"Class类"**的一个实例对象。Class类就是用来描述每个类型（class）自身的**元信息**，就是描述一个东西本身的说明书。
 
@@ -69,7 +69,7 @@ c=Delivery.class;
 ```
 
 
-![delivery3](/jekyll_bootstrap_demo/uploads/oo/delivery3.jpg)
+![delivery3](/thinkinginjava/uploads/oo/delivery3.jpg)
 
 但Class类本身也是一种类型。也就是用来说明一个东西的说明书本身也是一种“东西”。
 

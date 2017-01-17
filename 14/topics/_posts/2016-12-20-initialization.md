@@ -1,5 +1,5 @@
 ---
-deploy: post
+layout: post
 title: "类的加载和对象初始化"
 chapter: "Chapter 14"
 description: >

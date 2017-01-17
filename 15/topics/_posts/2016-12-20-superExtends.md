@@ -143,7 +143,7 @@ class GreenApple extends Apple{}
 
 
 在这个体系中，下界通配符 `Plate<？ extends Fruit>` 覆盖下图中蓝色的区域。
-![lowerBounds](/jekyll_bootstrap_demo/uploads/tij4-15/lowerBounds.png)g
+![lowerBounds](/thinkinginjava/uploads/tij4-15/lowerBounds.png)g
 
 
 
@@ -163,7 +163,7 @@ Plate<？ super Fruit>
 
 
 表达的就是相反的概念：一个能放水果以及一切是水果基类的盘子。`Plate<？ super Fruit>`是`Plate<Fruit>`的基类，但不是`Plate<Apple>`的基类。对应刚才那个例子，`Plate<？ super Fruit>`覆盖下图中红色的区域。
-![upperBounds](/jekyll_bootstrap_demo/uploads/tij4-15/upperBounds.png)
+![upperBounds](/thinkinginjava/uploads/tij4-15/upperBounds.png)
 
 
 

@@ -108,9 +108,9 @@ int[] i=new int[]{1,2,3};
 * "11: newarray int"：创建int数组
 
 anewarray和newarray都是虚拟机内部用来创建数组的命令。最多只能有2的8次方256个操作码，光创建数组就占了不止一个，可见数组的地位有多特殊。
-![title](/jekyll_bootstrap_demo/uploads/tij4-15/title.png)
-![newArray](/jekyll_bootstrap_demo/uploads/tij4-15/newarray.png)
-![aNewArray](/jekyll_bootstrap_demo/uploads/tij4-15/anewarray.png)
+![title](/thinkinginjava/uploads/tij4-15/title.png)
+![newArray](/thinkinginjava/uploads/tij4-15/newarray.png)
+![aNewArray](/thinkinginjava/uploads/tij4-15/anewarray.png)
 
 其中newarray用atype来标记数组类型。anewarray用index来标记。从描述里可以看到，数组除了元素类型，还有一个必须确定的是长度，因为数组是一段连续内存。
 

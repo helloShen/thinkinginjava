@@ -11,7 +11,7 @@ description: >
 ### 头节点
 
 实现链表的时候，一个很实用的实践是在链表前面加一个不储存数据的“头节点”。
-![linkedlist](/jekyll_bootstrap_demo/uploads/tij4-17/linkedlist.png)
+![linkedlist](/thinkinginjava/uploads/tij4-17/linkedlist.png)
 
 如上图，头节点不储存数据。从头节点的后一个元素开始才是链表的第一个元素。当链表为空的时候，链表只有一个头节点，而且next指针为空。
 
@@ -26,13 +26,13 @@ description: >
 
 3种不同的方法实现**“单向链表”**：
 **版本1. 只有头节点：head。**
-![linkedlist](/jekyll_bootstrap_demo/uploads/tij4-17/linkedlist.png)
+![linkedlist](/thinkinginjava/uploads/tij4-17/linkedlist.png)
 
 **版本2. 有一个头节点head，一个尾节点tail。**
-![linkedlist2](/jekyll_bootstrap_demo/uploads/tij4-17/linkedlist2.png)
+![linkedlist2](/thinkinginjava/uploads/tij4-17/linkedlist2.png)
 
 **版本3. 没有头节点，没有尾节点。只有普通节点。**
-![linkedlist3](/jekyll_bootstrap_demo/uploads/tij4-17/linkedlist3.png)
+![linkedlist3](/thinkinginjava/uploads/tij4-17/linkedlist3.png)
 
 
 

@@ -31,174 +31,40 @@ html {
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children
 of those sections to manage the look and feel of the site. */
 
-.chapter1-section {
+.exercises{
     height: auto;
-    padding-top: 20px;
+    padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
     background-color: #fff;
 }
 
-.chapter2-section {
+.articles{
     height: auto;
-    padding-top: 20px;
+    padding-top: 30px;
     padding-bottom: 30px;
-    text-align: center;
-    background-color: #eee;
-}
-.chapter3-section {
-    height: auto;
-    padding-top: 20px;
-    padding-bottom: 30px;
-    text-align: center;
     background-color: #fff;
 }
 
-.chapter4-section {
-    height: auto;
-    padding-top: 20px;
-    padding-bottom: 30px;
-    text-align: center;
-    background-color: #eee;
+div.exercise-title {
+    padding-top: 70px;
 }
-.chapter5-section {
-    height: auto;
-    padding-top: 20px;
-    padding-bottom: 30px;
-    text-align: center;
-    background-color: #fff;
+div.exercise-content {
+    padding-top: 10px;
 }
-
-.chapter6-section {
-    height: auto;
-    padding-top: 20px;
-    padding-bottom: 30px;
-    text-align: center;
-    background-color: #eee;
-}
-.chapter7-section {
-    height: auto;
-    padding-top: 20px;
-    padding-bottom: 30px;
-    text-align: center;
-    background-color: #fff;
-}
-
-.chapter8-section {
-    height: auto;
-    padding-top: 20px;
-    padding-bottom: 30px;
-    text-align: center;
-    background-color: #eee;
-}
-.chapter9-section {
-    height: auto;
-    padding-top: 20px;
-    padding-bottom: 30px;
-    text-align: center;
-    background-color: #fff;
-}
-
-.chapter10-section {
-    height: auto;
-    padding-top: 20px;
-    padding-bottom: 30px;
-    text-align: center;
-    background-color: #eee;
-}
-.chapter11-section {
-    height: auto;
-    padding-top: 20px;
-    padding-bottom: 30px;
-    text-align: center;
-    background-color: #fff;
-}
-
-.chapter12-section {
-    height: auto;
-    padding-top: 20px;
-    padding-bottom: 30px;
-    text-align: center;
-    background-color: #eee;
-}
-.chapter13-section {
-    height: auto;
-    padding-top: 20px;
-    padding-bottom: 30px;
-    text-align: center;
-    background-color: #fff;
-}
-
-.chapter14-section {
-    height: auto;
-    padding-top: 20px;
-    padding-bottom: 30px;
-    text-align: center;
-    background-color: #eee;
-}
-.chapter15-section {
-    height: auto;
-    padding-top: 20px;
-    padding-bottom: 30px;
-    text-align: center;
-    background-color: #fff;
-}
-
-.chapter16-section {
-    height: auto;
-    padding-top: 20px;
-    padding-bottom: 30px;
-    text-align: center;
-    background-color: #eee;
-}
-.chapter17-section {
-    height: auto;
-    padding-top: 20px;
-    padding-bottom: 30px;
-    text-align: center;
-    background-color: #fff;
-}
-
-.chapter18-section {
-    height: auto;
-    padding-top: 20px;
-    padding-bottom: 30px;
-    text-align: center;
-    background-color: #eee;
-}
-.chapter19-section {
-    height: auto;
-    padding-top: 20px;
-    padding-bottom: 30px;
-    text-align: center;
-    background-color: #fff;
-}
-
-.chapter20-section {
-    height: auto;
-    padding-top: 20px;
-    padding-bottom: 30px;
-    text-align: center;
-    background-color: #eee;
-}
-.chapter21-section {
-    height: auto;
-    padding-top: 20px;
-    padding-bottom: 30px;
-    text-align: center;
-    background-color: #fff;
-}
-
-.chapter22-section {
-    height: auto;
-    padding-top: 20px;
-    padding-bottom: 30px;
-    text-align: center;
-    background-color: #eee;
-}
-
 p.exercise-title {
     text-align: left;
-    padding-bottom: 7px;
-    font-family: courier;
+    font-family: "Courier New", Courier, monospace;
+}
+div.exercise-button {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.btn-link:hover {
+    border-radius: 5px;
+    background-color: #62afff;
+    color: white;
+}
+div.empty {
+    padding-bottom: 100px;
 }
