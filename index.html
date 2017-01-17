@@ -19,19 +19,11 @@ list: ['chapter11','chapter12','chapter13','chapter14','chapter15','chapter16','
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a class="page-scroll" href="#page-top"></a>
-                    </li>
+                    {% for item in page.list %}
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#{{ item }}">{{ item }}</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#services">Services</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
+                    {% endfor %}
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -39,48 +31,25 @@ list: ['chapter11','chapter12','chapter13','chapter14','chapter15','chapter16','
         <!-- /.container -->
     </nav>
 
-    <!-- Intro Section -->
-    <section id="intro" class="intro-section">
+    {% assign sorted = site.posts | sort:"num" %}
+    {% for item in page.list %}
+    <section id="{{ item }}" class="{{ item }}-section">
         <div class="container">
             <div class="row">
+                <h3><p class="exercise-title">{{ item }} 习题 </p></h3>
+            </div>
+            <div class="row">
+                {% for post in sorted %}
+                {% if post.categories contains item and post.categories contains "exercises" %}
+                <div class="col-lg-2">
+                    <p><a class="exerciseLink" href="{{ site.baseurl }}{{ post.url }}"><b> {{ post.title }} &raquo;</b></a></p>
+                </div>
+                {% endif %}
+                {% endfor %}
                 <div class="col-lg-12">
-                    <h1>Scrolling Nav</h1>
-                    <p><strong>Usage Instructions:</strong> Make sure to include the <code>scrolling-nav.js</code>, <code>jquery.easing.min.js</code>, and <code>scrolling-nav.css</code> files. To make a link smooth scroll to another section on the page, give the link the <code>.page-scroll</code> class and set the link target to a corresponding ID on the page.</p>
-                    <a class="btn btn-default page-scroll" href="#about">Click Me to Scroll Down!</a>
+                    <h1>{{ item }} Section</h1>
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- About Section -->
-    <section id="about" class="about-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>About Section</h1>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Services Section -->
-    <section id="services" class="services-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Services Section</h1>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Contact Section</h1>
-                </div>
-            </div>
-        </div>
-    </section>
+    {% endfor %}
