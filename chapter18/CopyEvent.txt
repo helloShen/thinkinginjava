@@ -1,6 +1,0 @@
-Line 1:	ThermostatNight	0
-Line 2:	LightOn	200
-Line 3:	LightOff	400
-Line 4:	WaterOn	600
-Line 5:	WaterOff	800
-Line 6:	ThermostatDay	1400
