@@ -3,6 +3,29 @@ layout: main
 title: "Thinking in Java 读书笔记"
 listIgnore: ['1','2','3','4','5','6','7','8','9','10']
 list: ['11','12','13','14','15','16','17','18','19','20','21']
+chapters:
+  - id: '11'
+    title: 'Holding Your Objects'
+  - id: '12'
+    title: 'Error Handling with Exceptions'
+  - id: '13'
+    title: 'Strings'
+  - id: '14'
+    title: 'Type Information'
+  - id: '15'
+    title: 'Generics'
+  - id: '16'
+    title: 'Arrays'
+  - id: '17'
+    title: 'Containers in Depth'
+  - id: '18'
+    title: 'IO'
+  - id: '19'
+    title: 'Enumerated Types'
+  - id: '20'
+    title: 'Annotations'
+  - id: '21'
+    title: 'Concurrenty'
 ---
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -21,10 +44,10 @@ list: ['11','12','13','14','15','16','17','18','19','20','21']
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a class="page-scroll" href="#exercises">Exercises</a>
+                        <a class="page-scroll" href="#exercises">Thingking in Java Exercises</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#articles">Articles</a>
+                        <a class="page-scroll" href="#articles">Hire Me</a>
                     </li>
                 </ul>
             </div>
@@ -40,21 +63,33 @@ list: ['11','12','13','14','15','16','17','18','19','20','21']
                 <div class="col-md-12"></div>
             </div>-->
             {% assign sorted = site.posts | sort:"num" %}
-            {% for item in page.list %}
+            {% for item in page.chapters %}
             <div class="row exercise-title">
+                <!--
                 <div class="col-md-12">
                     <h2><p class="exercise-title lead">Chapter {{ item }} </p></h2>
                     <hr>
                 </div>
+                -->
             </div>
             <div class="row exercise-content">
-                {% for post in sorted %}
-                {% if post.categories contains item and post.categories contains "exercises" %}
-                <div class="col-md-2 col-sm-3 col-xs-6 exercise-button">
-                    <button type="button" class="btn btn-link" onclick="location.href='{{ site.baseurl }}{{ post.url }}';"><h5><b>{{ post.title }} &raquo;<b></h5></button>
+                <div class="col-md-12 text-center">
+                    <div class="box">
+                        <div class="box-content">
+                            <h1 class="tag-title">Chapter {{ item.id }}: {{ item.title }}</h1>
+                            <hr />
+                            {% for post in sorted %}
+                            {% if post.categories contains item.id and post.categories contains "exercises" %}
+                                <button type="button" class="btn btn-fresh text-uppercase btn-xs"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }} &raquo;</a></button>
+                            {% endif %}
+                            {% endfor %}
+                            <br />
+                        </div>
+                    </div>
                 </div>
-                {% endif %}
-                {% endfor %}
+                <!--<div class="col-md-2 col-sm-3 col-xs-6 exercise-button">-->
+                    <!--<button type="button" class="btn btn-link" onclick="location.href='{{ site.baseurl }}{{ post.url }}';"><h5><b>{{ post.title }} &raquo;<b></h5></button>-->
+                <!--</div>-->
             </div>
             {% endfor %}
         </div>
