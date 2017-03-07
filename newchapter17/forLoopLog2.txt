@@ -1,0 +1,155 @@
+                              @ 18  java/lang/StringIndexOutOfBoundsException::<init> (not loaded)   not inlineable
+                              @ 66   java.lang.String::indexOfSupplementary (71 bytes)   callee is too large
+                              @ 12   java.lang.AbstractStringBuilder::expandCapacity (50 bytes)   callee is too large
+                              @ 16   java.lang.StringBuilder::<init> (7 bytes)
+                                @ 3   java.lang.AbstractStringBuilder::<init> (12 bytes)
+                                  @ 1   java.lang.Object::<init> (1 bytes)
+                              @ 20   java.lang.StringBuilder::append (8 bytes)
+                                @ 2   java.lang.AbstractStringBuilder::append (62 bytes)   callee is too large
+                              @ 25   java.lang.StringBuilder::append (8 bytes)
+                                @ 2   java.lang.AbstractStringBuilder::append (50 bytes)   callee is too large
+                              @ 29   java.lang.StringBuilder::append (8 bytes)
+                                @ 2   java.lang.AbstractStringBuilder::append (62 bytes)   callee is too large
+                              @ 32   java.lang.StringBuilder::toString (17 bytes)
+                                @ 13   java.lang.String::<init> (82 bytes)   callee is too large
+                              @ 35   java.lang.IllegalArgumentException::<init> (6 bytes)   don't inline Throwable constructors
+                              @ 54   java.lang.Math::min (11 bytes)
+                              @ 57   java.lang.System::arraycopy (0 bytes)   intrinsic
+                              @ 5   java.lang.AbstractStringBuilder::appendNull (56 bytes)   callee is too large
+                              @ 10   java.lang.String::length (6 bytes)
+                              @ 21   java.lang.AbstractStringBuilder::ensureCapacityInternal (16 bytes)
+                                @ 12   java.lang.AbstractStringBuilder::expandCapacity (50 bytes)   callee is too large
+                              @ 35   java.lang.String::getChars (62 bytes)   callee is too large
+                              @ 9  java/lang/StringIndexOutOfBoundsException::<init> (not loaded)   not inlineable
+                              @ 27  java/lang/StringIndexOutOfBoundsException::<init> (not loaded)   not inlineable
+                              @ 43  java/lang/StringIndexOutOfBoundsException::<init> (not loaded)   not inlineable
+                              @ 58   java.lang.System::arraycopy (0 bytes)   intrinsic
+                              @ 1   java.lang.Object::<init> (1 bytes)
+                              @ 13  java/lang/StringIndexOutOfBoundsException::<init> (not loaded)   not inlineable
+                              @ 30  java/lang/StringIndexOutOfBoundsException::<init> (not loaded)   not inlineable
+                              @ 65  java/lang/StringIndexOutOfBoundsException::<init> (not loaded)   not inlineable
+                              @ 75   java.util.Arrays::copyOfRange (63 bytes)   callee is too large
+### INTO LOOP ###
+                              @ 0   java.lang.System::nanoTime (0 bytes)   intrinsic
+                              @ 16   com.ciaoshen.test.TestForLoop::plusOne (5 bytes)
+                              @ 39   com.ciaoshen.test.TestForLoop::plusOne (5 bytes)
+                              @ 62   com.ciaoshen.test.TestForLoop::plusOne (5 bytes)
+                              @ 73   java.lang.System::nanoTime (0 bytes)   intrinsic
+                              @ 0   java.lang.System::nanoTime (0 bytes)   intrinsic
+                              @ 16   com.ciaoshen.test.TestForLoop::plusOne (5 bytes)
+                              @ 39   com.ciaoshen.test.TestForLoop::plusOne (5 bytes)
+                              @ 62   com.ciaoshen.test.TestForLoop::plusOne (5 bytes)
+                              @ 73   java.lang.System::nanoTime (0 bytes)   intrinsic
+                              @ 0   java.lang.System::nanoTime (0 bytes)   intrinsic
+                              @ 16   com.ciaoshen.test.TestForLoop::plusOne (5 bytes)
+                              @ 39   com.ciaoshen.test.TestForLoop::plusOne (5 bytes)
+                              @ 62   com.ciaoshen.test.TestForLoop::plusOne (5 bytes)
+                              @ 73   java.lang.System::nanoTime (0 bytes)   intrinsic
+                              @ 39   com.ciaoshen.test.TestForLoop::plusOne (5 bytes)   inline (hot)
+                              @ 62   com.ciaoshen.test.TestForLoop::plusOne (5 bytes)   inline (hot)
+                              @ 73   java.lang.System::nanoTime (0 bytes)   (intrinsic)
+                              @ 39   com.ciaoshen.test.TestForLoop::plusOne (5 bytes)   inline (hot)
+                              @ 62   com.ciaoshen.test.TestForLoop::plusOne (5 bytes)   inline (hot)
+                              @ 73   java.lang.System::nanoTime (0 bytes)   (intrinsic)
+                              @ 16   com.ciaoshen.test.TestForLoop::plusOne (5 bytes)   inline (hot)
+                              @ 39   com.ciaoshen.test.TestForLoop::plusOne (5 bytes)   inline (hot)
+                              @ 62   com.ciaoshen.test.TestForLoop::plusOne (5 bytes)   inline (hot)
+                              @ 73   java.lang.System::nanoTime (0 bytes)   (intrinsic)
+                              @ 16   com.ciaoshen.test.TestForLoop::plusOne (5 bytes)   inline (hot)
+                              @ 39   com.ciaoshen.test.TestForLoop::plusOne (5 bytes)   inline (hot)
+                              @ 62   com.ciaoshen.test.TestForLoop::plusOne (5 bytes)   inline (hot)
+                              @ 73   java.lang.System::nanoTime (0 bytes)   (intrinsic)
+                              @ 0   java.lang.System::nanoTime (0 bytes)   (intrinsic)
+                              @ 16   com.ciaoshen.test.TestForLoop::plusOne (5 bytes)   inline (hot)
+                              @ 39   com.ciaoshen.test.TestForLoop::plusOne (5 bytes)   inline (hot)
+                              @ 62   com.ciaoshen.test.TestForLoop::plusOne (5 bytes)   inline (hot)
+                              @ 73   java.lang.System::nanoTime (0 bytes)   (intrinsic)
+### FINISH LOOP ###
+                              @ 3   java.lang.String::indexOf (70 bytes)   callee is too large
+                              @ 9   java.lang.Object::hashCode (0 bytes)   no static binding
+                              @ 14   java.lang.Math::min (11 bytes)
+                              @ 139   java.lang.Character::isSurrogate (18 bytes)
+                              @ 157  sun/nio/cs/Surrogate$Parser::<init> (not loaded)   not inlineable
+                              @ 175  sun/nio/cs/Surrogate$Parser::parse (not loaded)   not inlineable
+                              @ 186   java.nio.charset.CharsetEncoder::malformedInputAction (5 bytes)
+                              @ 16   java.lang.Math::min (11 bytes)
+                              @ 48   java.lang.String::lastIndexOfSupplementary (70 bytes)   callee is too large
+                              @ 11   java.io.BufferedReader::ensureOpen (18 bytes)
+                                @ 13   java.io.IOException::<init> (6 bytes)   don't inline Throwable constructors
+                              @ 44   java.io.BufferedReader::fill (170 bytes)   callee is too large
+              s               @ 63   java.lang.StringBuffer::length (5 bytes)
+              s               @ 70   java.lang.StringBuffer::toString (36 bytes)   callee is too large
+                              @ 208   java.lang.String::<init> (82 bytes)   callee is too large
+              s               @ 226   java.lang.StringBuffer::append (15 bytes)
+                                @ 9   java.lang.AbstractStringBuilder::append (40 bytes)   callee is too large
+              s               @ 231   java.lang.StringBuffer::toString (36 bytes)   callee is too large
+                              @ 275   java.lang.StringBuffer::<init> (6 bytes)
+                                @ 2   java.lang.AbstractStringBuilder::<init> (12 bytes)
+                                  @ 1   java.lang.Object::<init> (1 bytes)
+              s               @ 289   java.lang.StringBuffer::append (15 bytes)
+                                @ 9   java.lang.AbstractStringBuilder::append (40 bytes)   callee is too large
+                              @ 1   java.lang.String::length (6 bytes)
+                              @ 19   java.lang.String::charAt (29 bytes)
+                                @ 18  java/lang/StringIndexOutOfBoundsException::<init> (not loaded)   not inlineable
+                              @ 44   java.io.UnixFileSystem::normalize (132 bytes)   callee is too large
+                              @ 69   java.io.UnixFileSystem::normalize (132 bytes)   callee is too large
+                              @ 2   java.lang.AbstractStringBuilder::append (50 bytes)   callee is too large
+                              @ 1   java.lang.CharacterData::of (120 bytes)   callee is too large
+                              @ 5   java.lang.CharacterData::toLowerCase (0 bytes)   no static binding
+                              @ 4   java.lang.CharacterDataLatin1::getProperties (11 bytes)
+                              @ 1   java.util.jar.Attributes$Name::isAlpha (30 bytes)
+                              @ 8   java.util.jar.Attributes$Name::isDigit (18 bytes)
+                              @ 1   java.lang.Object::<init> (1 bytes)
+                              @ 9   java.lang.String::lastIndexOf (52 bytes)   callee is too large
+                              @ 14   sun.misc.Unsafe::getObjectVolatile (0 bytes)   intrinsic
+                              @ 15   java.io.IOException::<init> (6 bytes)   don't inline Throwable constructors
+                              @ 12   java.io.BufferedInputStream::fill (233 bytes)   callee is too large
+                              @ 29   java.io.BufferedInputStream::getBufIfOpen (21 bytes)
+                                @ 15   java.io.IOException::<init> (6 bytes)   don't inline Throwable constructors
+                              @ 4   java.io.InputStream::read (0 bytes)   no static binding
+                              @ 12   java.io.InputStream::read (0 bytes)   no static binding
+                              @ 20   java.io.InputStream::read (0 bytes)   no static binding
+                              @ 28   java.io.InputStream::read (0 bytes)   no static binding
+                              @ 48  java/io/EOFException::<init> (not loaded)   not inlineable
+                              @ 9   java.util.HashMap$Node::<init> (26 bytes)
+                                @ 1   java.lang.Object::<init> (1 bytes)
+                              @ 20   java.util.HashMap::resize (359 bytes)   callee is too large
+                              @ 56   java.util.HashMap::newNode (13 bytes)   no static binding
+                              @ 91   java.lang.Object::equals (11 bytes)   no static binding
+                              @ 123   java.util.HashMap$TreeNode::putTreeVal (314 bytes)   not inlineable
+                              @ 152   java.util.HashMap::newNode (13 bytes)   no static binding
+                              @ 169   java.util.HashMap::treeifyBin (110 bytes)   callee is too large
+                              @ 203   java.lang.Object::equals (11 bytes)   no static binding
+                              @ 253   java.util.HashMap::afterNodeAccess (1 bytes)   no static binding
+                              @ 288   java.util.HashMap::resize (359 bytes)   callee is too large
+                              @ 295   java.util.HashMap::afterNodeInsertion (1 bytes)   no static binding
+                              @ 3   java.lang.String::startsWith (72 bytes)   callee is too large
+                              @ 9  java/lang/StringIndexOutOfBoundsException::<init> (not loaded)   not inlineable
+                              @ 27  java/lang/StringIndexOutOfBoundsException::<init> (not loaded)   not inlineable
+                              @ 44  java/lang/StringIndexOutOfBoundsException::<init> (not loaded)   not inlineable
+                              @ 75   java.lang.String::<init> (82 bytes)   callee is too large
+                              @ 30   java.lang.OutOfMemoryError::<init> (5 bytes)   don't inline Throwable constructors
+                              @ 43   java.util.Arrays::copyOf (19 bytes)
+                                @ 11   java.lang.Math::min (11 bytes)
+                                @ 14   java.lang.System::arraycopy (0 bytes)   intrinsic
+                              @ 2   java.util.HashMap::hash (20 bytes)
+                                @ 9   java.lang.Object::hashCode (0 bytes)   no static binding
+                              @ 9   java.util.HashMap::putVal (300 bytes)   callee is too large
+                              @ 1   java.lang.Object::<init> (1 bytes)
+                              @ 1   java.lang.Number::<init> (5 bytes)
+                                @ 1   java.lang.Object::<init> (1 bytes)
+                              @ 8   java.util.HashMap::put (13 bytes)
+                                @ 2   java.util.HashMap::hash (20 bytes)
+                                  @ 9   java.lang.Object::hashCode (0 bytes)   no static binding
+                                @ 9   java.util.HashMap::putVal (300 bytes)   callee is too large
+                                        One loop:           0 
+                                      Three loop:           0 
+                              @ 2   java.lang.AbstractStringBuilder::append (29 bytes)
+                                               One loop call method:              @ 7   java.lang.AbstractStringBuilder:: ensureCapacityInternal (16 bytes)
+         0                                  @ 12   java.lang.AbstractStringBuilder::expandCapacity (50 bytes) 
+   callee is too large
+                          Three loop call method:       81298 
+                              @ 7   java.lang.AbstractStringBuilder::ensureCapacityInternal (16 bytes)
+                                @ 12   java.lang.AbstractStringBuilder::expandCapacity (50 bytes)   callee is too large
+                  One loop call expensive method:           0 
+                Three loop call expensive method:           0 

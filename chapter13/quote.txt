@@ -1,0 +1,13 @@
+"abc"
+ "abc"
+ " abc "
+String a="a"+"b"+"c";
+String a = "a" + "b" + "c";
+String wrongPath = "/Users/helloKitty/java/com/ciaoshen/thinkinjava/chapter13/Exercise19.java";
+String rightPath= "/Users/Wei/java/com/ciaoshen/thinkinjava/chapter13/Exercise19.java";
+String testPatternString = "a" + "b //假注释" + "c" + "d";
+String testPatternString2 = "\"a\" + \"b //假注释";
+""
+" "
+ ""
+String empty = ""
