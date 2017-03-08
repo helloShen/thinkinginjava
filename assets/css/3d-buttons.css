@@ -4,7 +4,7 @@ body{
     font-family: 'Oswald', sans-serif;
 }
 
-h2{
+h2.3d-buttons {
     display:inline-block;
 }
 .btn{
