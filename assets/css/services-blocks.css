@@ -27,6 +27,7 @@
   border-radius: 0 0 2px 2px;
   background-clip: padding-box;
   box-sizing: border-box;
+  text-align: left;
 }
 .box .box-content p {
   color:#515c66;
